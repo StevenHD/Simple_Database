@@ -24,6 +24,13 @@
 
 - 最后解析和执行command
 
+---
+
+- exit(EXIT_SUCCESS)是库函数
+
+- 读入字符串是通过stdin将字符串读到input_buffer->buffer指向的内存缓冲区中，并指定了大小。
+所以最后输出的时候也是使用`input_buffer->buffer`来指定。
+
 
 
 ---
