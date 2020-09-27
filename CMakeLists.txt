@@ -3,4 +3,4 @@ project(sql)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(sql Part1/main.cpp)
+add_executable(sql Part2/compiler.cpp Part1/main.cpp)
